@@ -6,7 +6,7 @@ namespace MTFExample.NetCore
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine(FrameworkTests.GetFramework());
         }
     }
 }
