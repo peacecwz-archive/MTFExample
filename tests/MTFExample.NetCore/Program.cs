@@ -6,7 +6,8 @@ namespace MTFExample.NetCore
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(FrameworkTests.GetFramework());
+            Console.WriteLine($"{FrameworkTests.GetFramework()}");
+            Console.WriteLine($"{FrameworkTests.GetConfigurationValue("TestKey")}");
         }
     }
 }
